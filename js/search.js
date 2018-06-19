@@ -130,11 +130,11 @@ function appendPagination(currentPage) {
 }
 
 function getPrevIcon() {
-  return '<img src="{{site.baseurl}}/images/search/arrow-left-icon.png" srcset="{{site.baseurl}}/images/search/arrow-left-icon%402x.png 2x, {{site.baseurl}}/images/search/arrow-left-icon%403x.png 3x" />';
+  return '<img src="./images/search/arrow-left-icon.png" srcset="./images/search/arrow-left-icon%402x.png 2x, ./images/search/arrow-left-icon%403x.png 3x" />';
 }
 
 function getNextIcon() {
-  return '<img src="{{site.baseurl}}/images/search/arrow-right-icon.png" srcset="{{site.baseurl}}/images/search/arrow-right-icon%402x.png 2x, {{site.baseurl}}/images/search/arrow-right-icon%403x.png 3x" />';
+  return '<img src="./images/search/arrow-right-icon.png" srcset="./images/search/arrow-right-icon%402x.png 2x, ./images/search/arrow-right-icon%403x.png 3x" />';
 }
 
 function getResult(item, searchTerm) {
