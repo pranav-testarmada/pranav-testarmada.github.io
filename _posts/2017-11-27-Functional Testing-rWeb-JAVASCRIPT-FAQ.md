@@ -34,4 +34,4 @@ There are couple of things can impact the test results. Page rendering speed, cs
 
 ## Can I have this feature?
 
-If you are asking for a customized command, please check if similar command exists in our API Guide and nightwatch first. Or, if you are asking for a feature like data tools, or any other stuff that you think is useful, please reach out to us.
+If you are asking for a customized command, please check if similar command exists in our API Guide and nightwatch first. Or, if you are asking for a feature like data tools, or any other stuff that you think is useful, please join us in slack group testarmada.slack.com.

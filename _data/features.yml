@@ -2,10 +2,10 @@
   description: Built on and for open source community
   imgName: /documentation/images/icon-1
 - title: Massively Parallel
-  description: Ability to process hundreds of test cases simultaneouslyto speed up overall completion of a test suite
+  description: Ability to process hundreds of test cases simultaneously to speed up overall completion of a test suite
   imgName: /documentation/images/icon-2
 - title: Multi Platform
-  description: Supports e2e testing capabalities across web, native app, services.
+  description: Supports e2e testing capabilities across web, native app, services.
   imgName: /documentation/images/icon-3
 - title: Reliable & Deterministic
   description: Smart Retry feature and mocking guard against flaky test

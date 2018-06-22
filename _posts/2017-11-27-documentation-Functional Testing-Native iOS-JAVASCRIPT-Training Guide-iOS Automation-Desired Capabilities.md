@@ -11,13 +11,13 @@ course: iOS Automation
 <div class="sidebar">
 <div class="training-doc-link">
 <div class ="training-doc-link-left">
-<img class="training-doc-link-left__img" src="{{site.baseurl}}/images/training/actived.png" srcset="{{site.baseurl}}/images/training/actived%402x.png 2x, {{site.baseurl}}/images/training/actived%403x.png 3x" /><hr class="training-doc-link-left__hr training-doc-link-left__hr-pending" /></div>
+<img class="training-doc-link-left__img" src="/images/training/actived.png" srcset="/images/training/actived%402x.png 2x, /images/training/actived%403x.png 3x" /><hr class="training-doc-link-left__hr training-doc-link-left__hr-pending" /></div>
 <p class="training-doc-link__text">
 <a class="training-doc-link__text-current" href="./Desired Capabilities">Desired Capabilities</a></p>
 </div>
 <div class="training-doc-link">
 <div class ="training-doc-link-left">
-<img class="training-doc-link-left__img" src="{{site.baseurl}}/images/training/unread.png" srcset="{{site.baseurl}}/images/training/unread%402x.png 2x, {{site.baseurl}}/images/training/unread%403x.png 3x" /></div>
+<img class="training-doc-link-left__img" src="/images/training/unread.png" srcset="/images/training/unread%402x.png 2x, /images/training/unread%403x.png 3x" /></div>
 <p class="training-doc-link__text">
 <a class="training-doc-link__text-pending" href="./Native app locators">Native app locators</a></p>
 </div>
@@ -36,9 +36,9 @@ course: iOS Automation
 <li>There are various capabilities which can modify the behavior of the server during automation.</li>
 <li>For example, we could set the <strong>platformName</strong> capability to <strong>iOS</strong> to tell Appium that we want an iOS session, rather than an Android one. See the <a href="http://appium.io/docs/en/writing-running-appium/caps/index.html">capabilities doc</a> for the complete list of capabilities available for Appium.</li>
 <li>For our sample repo, Desired Capabilities are defined either in profiles in <strong>magellan.json</strong> file or <strong><em>./conf/nightwatch.json</em></strong> file. You can specify to use which one in your command line.</li>
-<li>For example, in your command, you can specify it via <code>--profile appium-ios-app</code>, which is defined in <strong>magellan.json</strong> file.</li>
+<li>For example, in your command, you can specify it via <code>--profile appium-ios-app</code>, which is defined in <strong>magellan.json</strong> file.s</li>
 </ul>
 </div>
 <div class="training-doc-nav-btn">
-<a href="./Native app locators"><img src="{{site.baseurl}}/images/training/btn-right.png" srcset="{{site.baseurl}}/images/training/btn-right%402x.png 2x, {{site.baseurl}}/images/training/btn-right%403x.png 3x" /></a>
+<a href="./Native app locators"><img src="/images/training/btn-right.png" srcset="/images/training/btn-right%402x.png 2x, /images/training/btn-right%403x.png 3x" /></a>
 </div>

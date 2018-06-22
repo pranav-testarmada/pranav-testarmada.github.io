@@ -24,6 +24,12 @@ permalink: /:categories/:title
 collections:
   - faqs
 
+pagination:
+  enabled: true
+  indexpage: "FAQ/1"
+  collection: faqs
+  permalink: "FAQ/:num"
+
 # Build settings
 markdown: kramdown
 exclude:

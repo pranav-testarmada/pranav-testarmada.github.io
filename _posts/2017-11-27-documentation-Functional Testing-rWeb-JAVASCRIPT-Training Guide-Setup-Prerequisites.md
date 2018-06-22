@@ -11,13 +11,13 @@ course: Setup
 <div class="sidebar">
 <div class="training-doc-link">
 <div class ="training-doc-link-left">
-<img class="training-doc-link-left__img" src="{{site.baseurl}}/images/training/actived.png" srcset="{{site.baseurl}}/images/training/actived%402x.png 2x, {{site.baseurl}}/images/training/actived%403x.png 3x" /><hr class="training-doc-link-left__hr training-doc-link-left__hr-pending" /></div>
+<img class="training-doc-link-left__img" src="/images/training/actived.png" srcset="/images/training/actived%402x.png 2x, /images/training/actived%403x.png 3x" /><hr class="training-doc-link-left__hr training-doc-link-left__hr-pending" /></div>
 <p class="training-doc-link__text">
 <a class="training-doc-link__text-current" href="./Prerequisites">Prerequisites</a></p>
 </div>
 <div class="training-doc-link">
 <div class ="training-doc-link-left">
-<img class="training-doc-link-left__img" src="{{site.baseurl}}/images/training/unread.png" srcset="{{site.baseurl}}/images/training/unread%402x.png 2x, {{site.baseurl}}/images/training/unread%403x.png 3x" /></div>
+<img class="training-doc-link-left__img" src="/images/training/unread.png" srcset="/images/training/unread%402x.png 2x, /images/training/unread%403x.png 3x" /></div>
 <p class="training-doc-link__text">
 <a class="training-doc-link__text-pending" href="./Setup and run demo tests locally and on SauceLabs">Setup and run demo tests locally and on SauceLabs</a></p>
 </div>
@@ -46,12 +46,6 @@ We recommend using <strong>nvm</strong> to manage your node and npm version. The
 nvm use 6.11.2
 </code></pre>
 <ol start="3">
-<li><p>Install <a href="https://github.com/FormidableLabs/builder-init">builder-init</a></p>
-<p>The sample project relies on FormidableLabs' <a href="https://github.com/FormidableLabs/builder">builder</a>. Please make sure you have <code>builder-init</code> npm installed.</p></li>
-</ol>
-<pre><code class="language-bash">npm install builder-init
-</code></pre>
-<ol start="4">
 <li><p>Apply <a href="saucelabs.com">SauceLabs</a> credentials (username and api-key)</p>
 <p>The demo tests can be executed on SauceLabs. To use it, please make sure you have:</p></li>
 </ol>
@@ -63,10 +57,10 @@ nvm use 6.11.2
 export SAUCE_USERNAME=${YOUR_SAUCE_NAME}
 export SAUCE_ACCESS_KEY=${YOUR_SAUCE_API_TOKEN}
 </code></pre>
-<ol start="5">
+<ol start="4">
 <li>Install <a href="https://www.google.com/chrome/browser/desktop/index.html">Chrome</a> browser, if you don't have it yet</li>
 </ol>
 </div>
 <div class="training-doc-nav-btn">
-<a href="./Setup and run demo tests locally and on SauceLabs"><img src="{{site.baseurl}}/images/training/btn-right.png" srcset="{{site.baseurl}}/images/training/btn-right%402x.png 2x, {{site.baseurl}}/images/training/btn-right%403x.png 3x" /></a>
+<a href="./Setup and run demo tests locally and on SauceLabs"><img src="/images/training/btn-right.png" srcset="/images/training/btn-right%402x.png 2x, /images/training/btn-right%403x.png 3x" /></a>
 </div>
